@@ -4,10 +4,8 @@ function Header() {
   return (
     <div className="header">
     <nav className="navbar">
-      <div className="logo">
-        <img src="/logo-techno.png" alt="Techbo Logo" />
-      </div>
       <ul className="nav-links">
+        <li class="logo"><img src="/logo-techno.png" alt="Techbo Logo" /></li>
         <li>
           <a href="/">Home</a>
         </li>
