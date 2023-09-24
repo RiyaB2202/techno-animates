@@ -26,7 +26,7 @@ export default function Banner() {
                   #{text}
                 </span>
               </h2>
-              <p className="mt-6 text-[16px] text-left  mx-auto md:mx-0 max-w-sm md:max-w-xl text-white/70">
+              <p className="mt-6 -tracking-tight text-justify text-[16px]   mx-auto md:mx-0 max-w-[18rem] md:max-w-xl text-white/70">
                 Technorate Animations, expertise spans professional animations,
                 expert video editing, captivating graphic design, and the latest
                 in cutting-edge web design services.
