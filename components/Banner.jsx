@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +12,7 @@ export default function Banner() {
     delaySpeed: 2400,
   });
   return (
-    <div className="overflow-hidden py-10   md:py-24 h-[700px]">
+    <div className=" py-12  md:py-24 h-[540px] md:h-[700px]">
       <div className="absolute  w-[80%] inset-0 hero-gradient" />
       <div className="mx-auto relative max-w-7xl  ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-8 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
@@ -32,11 +33,14 @@ export default function Banner() {
                 in cutting-edge web design services.
               </p>
 
-              <img
-                src="/line2.svg"
-                className="object-cover absolute md:hidden top-40 bottom-0 left-96 right-0"
-                alt=""
-              />
+              <div className="absolute object-cover  h-20 w-20 -top-20 right-0">
+                <Image
+                  src="/line2.svg"
+                  fill
+                  className="object-cover absolute "
+                  alt="hello"
+                />
+              </div>
               <div className="mt-10 flex items-center justify-center  lg:justify-start">
                 <Link
                   href="/contact"
@@ -45,18 +49,19 @@ export default function Banner() {
                   Book your Call Now →
                 </Link>
               </div>
-              {/* <img
+              {/* <Image
                 className=" object-cover absolute  -left-14 right-0 "
                 src="/Group.svg"
               /> */}
             </div>
-            <img
-              className=" absolute top-48 md:top-56 "
-              src="/currly line.svg"
-            />
+            <div className=" h-full w-56 absolute top-52 md:top-56 ">
+              <Image fill alt="hello" src="/currly line.svg" />
+            </div>
           </div>
 
-          <img
+          <Image
+            width={200}
+            height={200}
             src="/gear.svg"
             alt="Product screenshot"
             className="w-[28rem] hidden md:inline   shadow-xl  sm:w-[16rem] "
