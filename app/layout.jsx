@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={` ${unbounded.className} bg-black text-white `}>
         <Header />
+
         {children}
       </body>
     </html>
