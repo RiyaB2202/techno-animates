@@ -3,29 +3,30 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 
 const features = [
   {
     name: "Push to deploy.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: CloudArrowUpIcon,
+      "For creating and maintaining a digital presence, everything you need is offered here.",
+    icon: CheckBadgeIcon,
   },
   {
     name: "SSL certificates.",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+      "From ANIMATION, EDITING to covering all SOCIAL needs for a brand.",
     icon: LockClosedIcon,
   },
   {
     name: "Database backups.",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "TRA is the newbie with a difference. With a strong business idea and innovative thinking, the company aims to rule the digital world.",
     icon: ServerIcon,
   },
 ];
 
-export default function Features() {
+export default function AboutComp() {
   return (
     <div className="overflow-hidden bg-black py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -33,27 +34,24 @@ export default function Features() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <h2 className="text-[24px] text-center  md:text-[32px] ">
-                Our{" "}
-                <span className="bg-clip-text ml-2 bg-gradient-to-r from-[#2B86C5]  to-pink-400 text-transparent">
-                  {" "}
-                  Services{" "}
+                <span className="bg-clip-text mr-2 bg-gradient-to-r from-[#2B86C5]  to-pink-400 text-transparent">
+                  About
                 </span>
+                Us{" "}
               </h2>
 
-              <p className="mt-6 text-[15px]  text-white/80">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+              <p className="mt-6 text-[15px] capitalize -tracking-tight text-justify  text-white/80">
+                we would like to introduce Technorate Animations as a
+                comprehensive solution provider of your digital needs.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline  ">
-                      <feature.icon
-                        className="absolute left-1 top-1 h-5 w-5 text-[#2B86C5]"
+                      <CheckBadgeIcon
+                        className="absolute left-1 top-1 h-5 w-5 text-pink-400"
                         aria-hidden="true"
                       />
-                      <span className="text-pink-400">{feature.name}</span>
                     </dt>{" "}
                     <dd className="inline text-white/80">
                       {feature.description}

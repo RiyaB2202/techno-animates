@@ -3,14 +3,14 @@ import React from "react";
 const features = [
   {
     id: 1,
-    title: "Editing",
+    title: "Video Editing",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, qui enim aperiam vitae rem iusto soluta officiis commodi, vero deserunt",
     h1Color: "text-orange-400",
   },
   {
     id: 2,
-    title: "Web apps",
+    title: "web development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, qui enim aperiam vitae rem iusto soluta officiis commodi, vero deserunt",
     h1Color: "text-blue-400",
@@ -24,7 +24,14 @@ const features = [
   },
   {
     id: 4,
-    title: "Websites",
+    title: "social media management",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, qui enim aperiam vitae rem iusto soluta officiis commodi, vero deserunt",
+    h1Color: "text-purple-400",
+  },
+  {
+    id: 5,
+    title: "Animations",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, qui enim aperiam vitae rem iusto soluta officiis commodi, vero deserunt",
     h1Color: "text-purple-400",
@@ -35,10 +42,10 @@ function Whyus() {
   return (
     <div className="max-w-7xl pt-16 relative text-center mx-auto">
       <h2 className="text-[24px] md:text-[32px]">
-        Why{" "}
+        Our{" "}
         <span className="bg-clip-text ml-2 bg-gradient-to-r from-[#2B86C5]  to-pink-400 text-transparent">
           {" "}
-          Technorate Animations{" "}
+          Services{" "}
         </span>
       </h2>
 
@@ -48,7 +55,7 @@ function Whyus() {
             key={feature.id}
             className="text-left mt-8 rounded-xl max-w-sm mx-auto  md:max-w-lg shadow-xl bg-black p-8 border border-gray-800"
           >
-            <h2 className={`${feature.h1Color} text-[20px]`}>
+            <h2 className={`${feature.h1Color} capitalize text-[20px]`}>
               #{feature.title}
             </h2>
             <p>

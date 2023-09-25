@@ -1,5 +1,6 @@
+import AboutComp from "@/components/About";
 import Banner from "@/components/Banner";
-import Features from "@/components/Features";
+import OurClients from "@/components/OurClients";
 
 import Whyus from "@/components/Whyus";
 
@@ -9,7 +10,9 @@ export default function Home() {
       <Banner />
       <img src="/Banner.svg" alt="" />
       <Whyus />
-      <Features />
+
+      <AboutComp />
+      <OurClients />
     </div>
   );
 }
