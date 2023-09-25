@@ -7,7 +7,13 @@ import { useTypewriter } from "react-simple-typewriter";
 
 export default function Banner() {
   const [text] = useTypewriter({
-    words: ["Animations", "Web Apps", "Websites", "Editing", "Graphics"],
+    words: [
+      "Animations",
+      "Graphic Designing",
+      "Websites",
+      "Video Editing",
+      "SMM",
+    ],
     loop: true,
     delaySpeed: 2400,
   });
@@ -59,13 +65,13 @@ export default function Banner() {
             </div>
           </div>
 
-          <Image
+          {/* <Image
             width={200}
             height={200}
             src="/gear.svg"
             alt="Product screenshot"
             className="w-[28rem] hidden md:inline   shadow-xl  sm:w-[16rem] "
-          />
+          /> */}
         </div>
       </div>
     </div>
