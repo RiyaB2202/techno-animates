@@ -33,7 +33,7 @@ const features = [
 
 function Whyus() {
   return (
-    <div className="max-w-7xl relative text-center mx-auto">
+    <div className="max-w-7xl pt-16 relative text-center mx-auto">
       <h2 className="text-[24px] md:text-[32px]">
         Why{" "}
         <span className="bg-clip-text ml-2 bg-gradient-to-r from-[#2B86C5]  to-pink-400 text-transparent">
@@ -49,7 +49,7 @@ function Whyus() {
             className="text-left mt-8 rounded-xl max-w-sm mx-auto  md:max-w-lg shadow-xl bg-black p-8 border border-gray-800"
           >
             <h2 className={`${feature.h1Color} text-[20px]`}>
-              {feature.title}
+              #{feature.title}
             </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus,
