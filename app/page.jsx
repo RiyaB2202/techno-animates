@@ -1,6 +1,7 @@
 import AboutComp from "@/components/About";
 import Banner from "@/components/Banner";
 import OurClients from "@/components/OurClients";
+import Testimonials from "@/components/Testimonials";
 
 import Whyus from "@/components/Whyus";
 
@@ -13,6 +14,7 @@ export default function Home() {
 
       <AboutComp />
       <OurClients />
+      <Testimonials />
     </div>
   );
 }
