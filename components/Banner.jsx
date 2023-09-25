@@ -12,7 +12,7 @@ export default function Banner() {
     delaySpeed: 2400,
   });
   return (
-    <div className=" py-12  md:py-24 h-[540px] md:h-[700px]">
+    <div className=" pt-12  md:pt-16 h-[540px] md:h-[500px]">
       <div className="absolute  w-[80%] inset-0 hero-gradient" />
       <div className="mx-auto relative max-w-7xl  ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-8 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
@@ -33,7 +33,7 @@ export default function Banner() {
                 in cutting-edge web design services.
               </p>
 
-              <div className="absolute object-cover  h-20 w-20 -top-20 right-0">
+              <div className="absolute object-cover  h-20 w-20 -top-20 right-0 md:left-64">
                 <Image
                   src="/line2.svg"
                   fill
@@ -55,7 +55,7 @@ export default function Banner() {
               /> */}
             </div>
             <div className=" h-full w-56 absolute top-52 md:top-56 ">
-              <Image fill alt="hello" src="/currly line.svg" />
+              <Image priority fill alt="hello" src="/currly line.svg" />
             </div>
           </div>
 
