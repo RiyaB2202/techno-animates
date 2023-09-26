@@ -1,8 +1,4 @@
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
+import { LockClosedIcon, ServerIcon } from "@heroicons/react/20/solid";
 import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 
 const features = [
