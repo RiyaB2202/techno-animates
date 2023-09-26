@@ -3,7 +3,7 @@ import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 
 const features = [
   {
-    name: "Push to deploy.",
+    name: "Pushh to deploy.",
     description:
       "For creating and maintaining a digital presence, everything you need is offered here.",
     icon: CheckBadgeIcon,
