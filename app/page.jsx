@@ -4,6 +4,7 @@ import OurClients from "@/components/OurClients";
 import Testimonials from "@/components/Testimonials";
 
 import Whyus from "@/components/Whyus";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutComp />
       <OurClients />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
