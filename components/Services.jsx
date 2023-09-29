@@ -20,10 +20,10 @@ const products = [
     id: 1,
     name: "Animations",
     href: "#",
-    imageSrc: "/an1.jpg",
+    imageSrc: "/an2.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "$35",
-    color: "text-pink-400",
+    color: "text-orange-400",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const products = [
     imageSrc: "/video.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "$35",
-    color: "text-orange-400",
+    color: "text-[#2B86C5]",
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ export default function Services() {
               key={product.id}
               className="group  card  relative cursor-pointer"
             >
-              <div className="overflow-hidden rounded-xl h-72 border border-gray-800  w-full  group-hover:opacity-75 lg:h-80">
+              <div className="overflow-hidden rounded-xl h-72   w-full  group-hover:opacity-75 lg:h-80">
                 <Image
                   width={500}
                   height={500}
