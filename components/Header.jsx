@@ -44,7 +44,7 @@ export default function Header() {
           <div className="  mx-auto flex justify-center  flex-1 md:flex-none  ">
             <Link href="/">
               {/* <img className="object-cover " src="/9.png" alt="" /> */}
-              <h2 className="font-extrabold bg-clip-text ml-2 bg-gradient-to-r from-[#2B86C5]  to-pink-400 text-transparent relative  text-center   z-10 cursor-pointer text-[22px] leading-[30.24px] md:mt-1  ">
+              <h2 className="font-extrabold bg-clip-text ml-2 bg-gradient-to-r from-[#2B86C5] line-clamp-1  to-pink-400 text-transparent relative  text-center   z-10 cursor-pointer text-[22px] leading-[30.24px] md:mt-1  ">
                 Technorate Animates
               </h2>
             </Link>

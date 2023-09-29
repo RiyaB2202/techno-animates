@@ -56,7 +56,7 @@ function Whyus() {
         <>
           <div
             key={feature.id}
-            className={` ${feature.position} text-left absolute  rounded-xl max-w-sm mx-auto  md:max-w-lg shadow-xl bg-black md:p-4 p-2 border border-gray-800`}
+            className={` ${feature.position} text-left absolute  rounded-xl max-w-sm mx-auto  md:max-w-lg shadow-xl border border-gray-800 bg-black md:p-4 p-2 `}
           >
             <h2
               className={`${feature.h1Color}  capitalize  text-[16px] md:text-[20px]`}
