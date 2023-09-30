@@ -5,7 +5,7 @@ import Testimonials from "@/components/Testimonials";
 
 import Whyus from "@/components/Whyus";
 import Footer from "@/components/Footer";
-
+import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <div className="h-full">
@@ -17,6 +17,7 @@ export default function Home() {
       <OurClients />
       <Testimonials />
       <Footer />
+      <Contact/>
     </div>
   );
 }

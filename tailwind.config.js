@@ -28,6 +28,19 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor: {
+        black: "#000000",
+        white: "#ffffff",
+      },
+      borderColor: {
+        primary: "#3C90C1",
+      },
+      textColor: {
+        button: "#7E0EB4",
+      },
+      placeholderColor: {
+        gray: "#363C4B",
+      },
     },
   },
   plugins: [],
