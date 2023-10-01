@@ -60,7 +60,7 @@ function ContactUs() {
             ></textarea>
           </div>
           <button
-            className="bg-white text-button py-2 px-4  border-4 border-purple-500 border-x-purple-600 rounded-lg"
+            className="bg-white text-button py-2 px-4  border-4 border-purple-500 border-x-purple-600 rounded-lg font-bold"
             type="submit"
           >
             Send
@@ -68,7 +68,7 @@ function ContactUs() {
         </form>
       </div>
       <div className="imageicon">
-        <img src="contact_page.png" alt="svg" width="804" height="643" className=" ml-36" />
+        <img src="contact_page.png" alt="svg" width="804" height="643" className=" ml-36  -mt-24" />
       </div>
     </div>
   );
