@@ -66,9 +66,13 @@ function ContactUs() {
             Send
           </button>
         </form>
-      </div>
-      <div className="imageicon">
-        <img src="contact_page.png" alt="svg" width="804" height="643" className=" ml-36  -mt-24" />
+        <div className="imageicon">
+          <img
+            src="contact_page.png"
+            alt="svg"
+            className="ml-[23rem] mt-[-47rem]  w-[877px] h-[880px]"
+          />
+        </div>
       </div>
     </div>
   );
