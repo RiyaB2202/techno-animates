@@ -2,79 +2,40 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer">
-    <div className="container">
-      <div className="row">
-        <div className="footer-col">
-          <h4>PRODUCTS</h4>
-          <ul>
-            <li>
-              <a href="#">Courses</a>
-            </li>
-            <li>
-              <a href="#">Webinars</a>
-            </li>
-            <li>
-              <a href="#">Membership</a>
-            </li>
-            <li>
-              <a href="#">Digital Products</a>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-col">
-          <h4>RESOURCES</h4>
-          <ul>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Updates</a>
-            </li>
-            <li>
-              <a href="#">Product Roadmap</a>
-            </li>
-            <li>
-              <a href="#">Partner Program</a>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-col">
-          <h4>LEGAL</h4>
-          <ul>
-            <li>
-              <a href="#">Terms of service</a>
-            </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#">User guidelines</a>
-            </li>
-            <li>
-              <a href="#">Refund Policy</a>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-col">
-          <h4>REACH US</h4>
-          <div className="social-links">
-            <a href="#">
-              <i className="fab fa-facebook-f" />
-            </a>
-            <a href="#">
-              <i className="fab fa-twitter" />
-            </a>
-            <a href="#">
-              <i className="fab fa-instagram" />
-            </a>
-            <a href="#">
-              <i className="fab fa-linkedin-in" />
-            </a>
-          </div>
+    <footer className="bg-gradient-to-b from-purple-400 to-black text-white p-10 mt-10 pb-36 text-lg w-full">
+      <div className="container mx-auto">
+        <div className="flex justify-between items-center">
           <div>
-            <p>© 2023 by Technorate Animations</p>
+            <p className="animate-fade-in text-2xl">
+              &copy; 2023 by Technorate Animations
+            </p>
           </div>
+          <div className="flex space-x-4">
+            <a
+              href="#"
+              className="hover:text-purple-600 transition-colors duration-300 transform hover:scale-110"
+            >
+              <img
+                src="icons8-twitter-48.png"
+                className="h-10 w-10 inline-block mr-4"
+                alt="Twitter"
+              />
+            </a>
+            <a
+              href="#"
+              className="hover:text-purple-600 transition-colors duration-300 transform hover:scale-110"
+            >
+              <img
+                src="icons8-facebook-48.png"
+                className="h-10 w-10 inline-block"
+                alt="Facebook"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="flex mt-3 space-x-4">
+          <p className="animate-fade-in">&#128241; +91 - 8251936822</p>
+          <p className="animate-fade-in">&#128231; technorateanimations@gmail.com</p>
         </div>
       </div>
     </div>
