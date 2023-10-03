@@ -38,7 +38,7 @@ function Footer() {
           <p className="animate-fade-in">&#128231; technorateanimations@gmail.com</p>
         </div>
       </div>
-    </div>
+    
   </footer>
    
   );
