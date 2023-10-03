@@ -1,7 +1,11 @@
 import React from "react";
-
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 function page() {
-  return <div>contact</div>;
+  return <div>
+    <Contact/>
+    <Footer />
+  </div>;
 }
 
 export default page;
