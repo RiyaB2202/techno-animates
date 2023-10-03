@@ -70,7 +70,7 @@ function ContactUs() {
           <img
             src="contact_page.png"
             alt="svg"
-            className="ml-[23rem] mt-[-47rem]  w-[877px] h-[880px]"
+            className="ml-[23rem] mt-[-47rem]  w-[877px] h-[880px] group  card  relative cursor-pointer"
           />
         </div>
       </div>
