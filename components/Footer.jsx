@@ -6,12 +6,14 @@ function Footer() {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <div>
-            <p>&copy; 2023 by Technorate Animations</p>
+            <p className="animate-fade-in text-2xl">
+              &copy; 2023 by Technorate Animations
+            </p>
           </div>
-          <div>
+          <div className="flex space-x-4">
             <a
               href="#"
-              className="hover:text-purple-600 transition-colors duration-300"
+              className="hover:text-purple-600 transition-colors duration-300 transform hover:scale-110"
             >
               <img
                 src="icons8-twitter-48.png"
@@ -21,7 +23,7 @@ function Footer() {
             </a>
             <a
               href="#"
-              className="hover:text-purple-600 transition-colors duration-300"
+              className="hover:text-purple-600 transition-colors duration-300 transform hover:scale-110"
             >
               <img
                 src="icons8-facebook-48.png"
@@ -31,12 +33,9 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex  ">
-          <p className="mt-3">&#128241; +91 - 8251936822</p>
-
-          <p className="mt-3 ml-10 ">
-            &#128231; technorateanimations@gmail.com
-          </p>
+        <div className="flex mt-3 space-x-4">
+          <p className="animate-fade-in">&#128241; +91 - 8251936822</p>
+          <p className="animate-fade-in">&#128231; technorateanimations@gmail.com</p>
         </div>
       </div>
     </footer>
